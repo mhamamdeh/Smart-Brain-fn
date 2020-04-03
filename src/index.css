@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Courier New' , Courier , monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+input.error {
+  border-color: red;
+}
+
+input.notError {
+  border-color: black;
+}
+
+.input-feedback {
+  color: rgb(235,54,54);
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: start;
+}
